@@ -1,0 +1,9 @@
+logging:
+  level:
+    root: INFO
+    org.springframework: ERROR
+    com.netflix: ERROR
+    tw.ibm: DEBUG
+    org.hibernate: ERROR      
+  pattern:
+    console: '%d{"MM/dd HH:mm:ss"} [%p] %M\(\) (%F:%L\) - %msg%n'
